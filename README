@@ -1,0 +1,77 @@
+# StackIt 🧩
+
+A minimal **Question & Answer platform** that supports collaborative learning and structured knowledge sharing. Designed to be simple, user-friendly, and focused on the core experience of asking and answering questions within a community.
+
+---
+
+## 🚀 Demo
+
+[Live Demo Link](#) *(Add once deployed)*
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Question Detail |
+|--|--|
+| ![Home](./screenshots/home.png) | ![Detail](./screenshots/question-detail.png) |
+
+---
+
+## 👥 User Roles
+
+| Role   | Permissions                                     |
+|--------|-------------------------------------------------|
+| Guest  | View all questions and answers                 |
+| User   | Register, log in, post questions/answers, vote |
+| Admin  | Moderate content                               |
+
+---
+
+## ✨ Core Features
+
+✅ **Ask Question**  
+- Title, rich text description, and tags
+
+✅ **Rich Text Editor**  
+- Bold, Italic, Strikethrough  
+- Numbered lists, Bullet points  
+- Emoji and image insertion  
+- Hyperlink insertion  
+- Text alignment
+
+✅ **Answer Questions**  
+- Post formatted answers using the editor
+
+✅ **Voting & Accepted Answers**  
+- Upvote/downvote answers  
+- Question owner can accept an answer
+
+✅ **Tagging System**  
+- Multi-select input for relevant tags
+
+✅ **Notification System**  
+- Bell icon with unread notification count  
+- Notifications when:
+  - Someone answers your question
+  - Someone comments on your answer
+  - Someone mentions you with @username
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JWT & bcrypt
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/stackit.git
+cd stackit
